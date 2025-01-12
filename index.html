@@ -214,6 +214,136 @@
           adulta,tratando mas de cerca temas como la misma muerte.
         </p>
       </section>
+      <section id="formulario">
+        <h1>¡Comparte tu Top de Películas!</h1>
+        <p>
+          Cuéntanos cuáles son tus películas favoritas y si quieres, suscríbete
+          para recibir más artículos interesantes.
+        </p>
+
+        <form
+          action="https://tu-servidor.com/procesar-formulario"
+          method="post"
+        >
+          <!-- Sección para el top de películas -->
+          <label for="pelicula1">Película favorita #1:</label>
+          <input
+            type="text"
+            id="pelicula1"
+            name="pelicula1"
+            placeholder="Ingresa tu película favorita"
+            required
+          />
+
+          <label for="pelicula2">Película favorita #2:</label>
+          <input
+            type="text"
+            id="pelicula2"
+            name="pelicula2"
+            placeholder="Ingresa tu segunda favorita"
+          />
+
+          <label for="pelicula3">Película favorita #3:</label>
+          <input
+            type="text"
+            id="pelicula3"
+            name="pelicula3"
+            placeholder="Ingresa tu tercera favorita"
+          />
+
+          <label for="pelicula4">Película favorita #4:</label>
+          <input
+            type="text"
+            id="pelicula4"
+            name="pelicula4"
+            placeholder="Ingresa tu cuarta favorita"
+          />
+          <label for="pelicula5">Película favorita #5:</label>
+          <input
+            type="text"
+            id="pelicula5"
+            name="pelicula5"
+            placeholder="Ingresa tu quinta favorita"
+          />
+          <label for="pelicula6">Película favorita #6:</label>
+          <input
+            type="text"
+            id="pelicula6"
+            name="pelicula6"
+            placeholder="Ingresa tu sexta favorita"
+          />
+          <label for="pelicula7">Película favorita #7:</label>
+          <input
+            type="text"
+            id="pelicula7"
+            name="pelicula7"
+            placeholder="Ingresa tu septima favorita"
+          />
+          <label for="pelicula8">Película favorita #8:</label>
+          <input
+            type="text"
+            id="pelicula8"
+            name="pelicula8"
+            placeholder="Ingresa tu octava favorita"
+          />
+          <label for="pelicula9">Película favorita #9:</label>
+          <input
+            type="text"
+            id="pelicula9"
+            name="pelicula9"
+            placeholder="Ingresa tu novena favorita"
+          />
+          <label for="pelicula10">Película favorita #10:</label>
+          <input
+            type="text"
+            id="pelicula10"
+            name="pelicula10"
+            placeholder="Ingresa tu decima favorita"
+          />
+          <label for="pelicula11">Película favorita #11:</label>
+          <input
+            type="text"
+            id="pelicula11"
+            name="pelicula11"
+            placeholder="Ingresa tu undecima favorita"
+          />
+
+          <!-- Sección para datos opcionales -->
+          <label for="suscribirse">¿Te gustaría recibir más artículos?</label>
+          <select id="suscribirse" name="suscribirse">
+            <option value="si">Sí</option>
+            <option value="no">No</option>
+          </select>
+
+          <h1>¡Recibe más artículos sobre películas!</h1>
+          <form
+            action="https://tu-servidor.com/procesar-suscripcion"
+            method="post"
+          >
+            <label for="nombre">Nombre:</label><br />
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Tu nombre"
+              required
+            /><br /><br />
+
+            <label for="email">Correo electrónico:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Tu correo"
+              required
+            /><br /><br />
+
+            <button type="submit">Suscribirse</button>
+          </form>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
